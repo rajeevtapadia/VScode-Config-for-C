@@ -10,7 +10,8 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${workspaceFolder}/bin/${fileBasenameNoExtension}"
+                "${workspaceFolder}/bin/${fileBasenameNoExtension}",
+                "-lstdc++"
             ],
             "options": {
                 "cwd": "${fileDirname}"
@@ -23,6 +24,6 @@
                 "isDefault": true
             },
             "detail": "Task written by Rajeev Tapadia"
-        }
+        },
     ]
 }

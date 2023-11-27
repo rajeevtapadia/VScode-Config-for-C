@@ -10,7 +10,8 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${workspaceFolder}\\bin\\${fileBasenameNoExtension}.exe"
+                "${workspaceFolder}\\bin\\${fileBasenameNoExtension}.exe",
+                "-lstdc++"
             ],
             "options": {
                 "cwd": "${fileDirname}"
